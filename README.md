@@ -1,5 +1,6 @@
 # TabLayoutDemo
 [Android support design](https://developer.android.com/reference/android/support/design/widget/TabLayout.html) -- TabLayout Demo
+![image](https://github.com/Mr7Cat/TabLayoutDemo/blob/master/TabLayout/device-2016-01-20-110202.png)
 
 ##Doc
 TabLayout provides a horizontal layout to display tabs.
