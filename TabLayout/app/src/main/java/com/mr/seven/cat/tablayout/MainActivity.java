@@ -57,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
         mTabLayout.setTabsFromPagerAdapter(mSectionsPagerAdapter);
         mTabLayout.setupWithViewPager(mViewPager);
 
+        // Set icon
+        mTabLayout.getTabAt(0).setIcon(R.mipmap.ic_launcher);
+        mTabLayout.getTabAt(1).setIcon(R.mipmap.ic_launcher);
+        mTabLayout.getTabAt(2).setIcon(R.mipmap.ic_launcher);
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
